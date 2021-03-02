@@ -56,9 +56,9 @@
 					<td>".$result['product_name']."</td>
 					<td>".$result['product_price']."</td>
 					<td>".$result['product_stock']."</td>
-					<td><a href='update1.php?pi=$result[product_id]&pn=$result[product_name]&pp=$result[product_price]&ps=$result[product_stock]'>
+					<td><a href='update.php?pi=$result[product_id]&pn=$result[product_name]&pp=$result[product_price]&ps=$result[product_stock]'>
 					Edit/Update</td>
-					<td><a href='delete1.php?pi=$result[product_id]'>Delete</td>
+					<td><a href='delete.php?pi=$result[product_id]'>Delete</td>
 					
 					</tr>
 					";
