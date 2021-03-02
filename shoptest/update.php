@@ -12,7 +12,7 @@ if (!$pg_heroku)
 $pi=$_GET['pi'];
 $pn=$_GET['pn'];
 $pp=$_GET['pp'];
-$qt=$_GET['qs'];
+$qt=$_GET['ps'];
 ?>
 <html>
   <head>
@@ -55,7 +55,7 @@ $qt=$_GET['qs'];
         
         <tr>
           <td>Quantity</td>
-          <td><input type="text" value="<?php echo "$qs" ?>" name="product_stock" required></td>
+          <td><input type="text" value="<?php echo "$ps" ?>" name="product_stock" required></td>
         </tr>
         
         <tr>
@@ -79,7 +79,7 @@ if($_GET['submit'])
 	{
 		echo "<script>alert('Updated Successfully!')</script>";
 		?>
-		<meta http-equiv="refresh" content="0; url=https://quangatnshop.herokuapp.com/staff1.php" />
+		<meta http-equiv="refresh" content="0; url=https://asm2kwan.herokuapp.com/staff.php" />
 		<?php
 	}
 	else
