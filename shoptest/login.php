@@ -24,11 +24,11 @@
         } 
       </style>
       <div>
-	      <h2 style="color:black;" align="center">LoginSession</h2>
+	      <h2 style="color:white;" align="center">LoginSession</h2>
 		<form style="color:black;" align="center" method="POST">
 			<input type="text" id="username" placeholder="Choose Username"><br>
-			<input type="password" id="password" placeholer="Choose Password"><br>
-			<button type="button" onclick="getInfo()">Click Me</button>
+			<input type="text" id="password" placeholer="Choose Password"><br>
+			<button type="button" onclick="getInfo()">Log in</button>
     	</form>
     	<script src="js/main.js"></script>
     </div>
