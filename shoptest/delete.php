@@ -10,7 +10,7 @@
 			{
 				die('Error: Could not connect: ' . pg_last_error());
 			}
-$productid=$_GET['pi'];
+$product_id=$_GET['pi'];
 $query = "DELETE FROM product WHERE product_id = '$product_id'";
 $data = pg_query($pg_heroku,$query);
 if($data)
