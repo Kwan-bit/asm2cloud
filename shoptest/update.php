@@ -23,7 +23,7 @@ $qt=$_GET['ps'];
              direction="left" 
              onmouseover="this.stop();" 
              onmouseout="this.start();">
-        [2/27/2021]: Remember to check the database everyday!
+        [nah/nah/nah]: nah
     </marquee>
   </head>
   <body>
