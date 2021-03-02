@@ -69,9 +69,9 @@ $qt=$_GET['ps'];
 <?php
 if($_GET['submit'])
 {
-	$productid = $_GET['product_id'];
-	$productname = $_GET['product_name'];
-	$productprice = $_GET['product_price'];
+	$product_id = $_GET['product_id'];
+	$product_name = $_GET['product_name'];
+	$product_price = $_GET['product_price'];
 	$product_stock = $_GET['product_stock'];
 	$query = "UPDATE product SET product_id='$product_id', product_name='$product_name', product_price='$product_price', product_stock='$product_stock' WHERE product_id='$product_id' ";
 	$data = pg_query($pg_heroku,$query);
