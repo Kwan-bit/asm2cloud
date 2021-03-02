@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href ="./shoptest/styles.css">
+    <link rel="stylesheet" href ="/shoptest/styles.css">
     <title> Login </title>
     <marquee bgcolor="gray" 
              scrollamount="12" 
