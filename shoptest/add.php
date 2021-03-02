@@ -68,8 +68,8 @@ if($_GET['submit'])
 	$pi=$_GET['product_id'];
 	$pn=$_GET['product_name'];
 	$pp=$_GET['product_price'];
-	$qt=$_GET['product_stock'];
-	$query = "INSERT INTO product VALUES ('$pi','$pn','$pp','$qs')";
+	$ps=$_GET['product_stock'];
+	$query = "INSERT INTO product VALUES ('$pi','$pn','$pp','$ps')";
 	$data = pg_query($pg_heroku,$query);
 	if($data)
 	{
