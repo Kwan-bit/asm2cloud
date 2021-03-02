@@ -43,7 +43,7 @@
 			{
 				die('Error: Could not connect: ' . pg_last_error());
 			}
-		    	$query = 'select * from atnshop';
+		    	$query = 'select * from product';
 			$data = pg_query($pg_heroku, $query);
 	    		$total = pg_num_rows($data);
 			if($total!=0)
